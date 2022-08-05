@@ -1,4 +1,4 @@
-﻿name: Dead Reckoning
+﻿name: Build Project
 
 on: [push]
 
