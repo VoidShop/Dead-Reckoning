@@ -4,7 +4,6 @@ on: [push]
 
 jobs:
   buildForAllSupportedPlatforms:
-    needs: testAllModes
     name: Build for ${{ matrix.targetPlatform }}
     runs-on: ubuntu-latest
     strategy:
